@@ -1,0 +1,24 @@
+html {
+    height: 100%;
+}
+body {
+    background-image: url("./images/background.jpg");
+    min-height: 100%;
+}
+ h1 {
+    margin: 0 auto;
+    text-align: center;
+}
+.element{
+    margin: 0 auto;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.carousel-item {
+    transition-duration: 0s;
+}
+
+.carousel .carousel-indicators .contain-detection{
+    background-color: #FFFF00;
+}
